@@ -1,0 +1,78 @@
+FILE: merged_content_structure.txt
+GENERATED: 2026-06-03
+PURPOSE: Combined content structure template with event data entries #1-#3
+
+=================================================================
+DIRECTIVE:
+1. Separate between structure with <index>.<=====> like this: 1.===================================================================
+2. ONLY MODIFY THE SELECTED PLACEHOLDER, DON'T MODIFY ANYTHING ELSE. KEEP THE INTEGRITY AND CONTENT 1:1.
+=================================================================
+
+--- ENTRY 1 ---
+1.===================================================================
+
+#DIV 1
+1.[data-target-date] = 2026-07-16T23:59:59+08:00
+2.[full title] = Webinar Pelaksanaan e-Invois Bagi Badan Pengurusan Bersama (JMB), Perbadanan Pengurusan (MC) & Persatuan Penduduk (RA)
+3.[Tarikh Mula] = 16 Julai 2026 (Khamis)
+4.[Masa] = 8:30 am – 1:00 pm
+5.[Lokasi] = Webinar melalui Ms. Teams
+6.[Yuran Pendaftaran] = Percuma
+7.[Tarikh Tutup] = 09 Julai 2026
+8.[aturcara url] = /wp-content/uploads/20260716-atur-cara-webinar-pelaksanaan-e-invois-bagi-badan-pengurusan-bersama-jmb-perbadanan-pengurusan-mc-persatuan-penduduk-ra.pdf
+9.[muatturun-ics] = skip
+10.[daftar-sekarang] = https://events.teams.microsoft.com/event/82a668c0-c158-41ca-bbfe-bfacdead1e0e@276c9773-3465-4ec8-8be1-460080f8a182
+
+#DIV 2
+1.[penceramah] = Pn. Nazaitul Bahiyah binti Md Yusof (Ketua Penolong Pengarah, Bahagian e-Invois, Sektor Operasi Cukai, HASiL) | Pn. Intan Melati binti Ahmad (Ketua Penolong Pengarah, Bahagian e-Invois, Sektor Operasi Cukai, HASiL)
+2.[termasyarat-content] = Terbuka kepada semua pembayar cukai. | Penyertaan adalah percuma dan terhad kepada 1,000 peserta terawal. | Pendaftaran akan ditutup lebih awal sekiranya pendaftaran telah penuh. | Taklimat/ Webinar dijalankan dalam Bahasa Melayu. | Sebarang pertanyaan, boleh hubungi melalui e-mel myinvois@hasil.gov.my.
+
+---
+
+--- ENTRY 2 ---
+2.===================================================================
+
+#DIV 1
+1.[data-target-date] = 2026-06-29T23:59:59+08:00
+2.[full title] = Taklimat e-Invois @ CPCB Bil. 18/2026
+3.[Tarikh Mula] = 29 Jun 2026 (Isnin)
+4.[Masa] = 9:30 am – 12:30 pm
+5.[Lokasi] = Bilik Mesyuarat Tingkat 6, Blok 10 Kompleks Kerajaan, Jalan Tuanku Abdul Halim, Kuala Lumpur
+6.[Yuran Pendaftaran] = Percuma
+7.[Tarikh Tutup] = 24 Jun 2026
+8.[aturcara url] = /wp-content/uploads/20260629-atur-cara-taklimat-e-invois-cpcb-bil-18-2026.pdf
+9.[muatturun-ics] = skip
+10.[daftar-sekarang] = https://forms.cloud.microsoft/pages/responsepage.aspx?id=c5dsJ2U0yE6L4UYAgPihgoE4BkjEqx1ItyMmFaU9gzVUM01LR1A3M0U0VUREWTlQVFVONjRNNFk2Qy4u&route=shorturl
+
+#DIV 2
+1.[penceramah] = Pn. Zalwani Binti Mahmud (Ketua Penolong Pengarah, Cawangan Pembayar Cukai Besar, HASiL) | En. Muhammad Adzhim Bin Ismail (Penolong Pengarah, Cawangan Pembayar Cukai Besar, HASiL)
+2.[termasyarat-content] = Terbuka kepada semua pembayar cukai. | Penyertaan adalah percuma dan terhad kepada 50 peserta terawal. | Pendaftaran akan ditutup lebih awal sekiranya pendaftaran telah penuh. | Taklimat/ Webinar dijalankan dalam Bahasa Melayu. | Sebarang pertanyaan, boleh hubungi talian 03-6209 1000.
+
+---
+
+--- ENTRY 3 ---
+3.===================================================================
+
+#DIV 1
+1.[data-target-date] = 2026-06-29T23:59:59+08:00
+2.[full title] = Taklimat e-Invois Anjuran HASiL Terengganu Bil. 2/2026
+3.[Tarikh Mula] = 29 Jun 2026 (Isnin)
+4.[Masa] = 9:00 am – 1:00 pm
+5.[Lokasi] = Dewan Pulau Redang, Tingkat 8, HASiL Terengganu, Kuala Terengganu, Terengganu
+6.[Yuran Pendaftaran] = Percuma
+7.[Tarikh Tutup] = 29 Jun 2026
+8.[aturcara url] = /wp-content/uploads/20260629-atur-cara-taklimat-e-invois-anjuran-hasil-terengganu-bil-2-2026.pdf
+9.[muatturun-ics] = skip
+10.[daftar-sekarang] = https://docs.google.com/forms/d/e/1FAIpQLSe3iPcTa6gs22lgRa2r6lCFHcnLafIUrbBkpn4PDsF7uL8YTw/viewform
+
+#DIV 2
+1.[penceramah] = En. Mohd Azhar Bin Othman (Penolong Pengarah Kanan, Seksyen Khidmat Pelanggan, HASiL Terengganu) | En. Muhamad Razi Bin Muhamad Raba'i (Penolong Pengarah, Seksyen Khidmat Pelanggan, HASiL Terengganu)
+2.[termasyarat-content] = Terbuka kepada semua pembayar cukai. | Penyertaan adalah percuma. | Pendaftaran akan ditutup lebih awal sekiranya pendaftaran telah penuh. | Taklimat/ Webinar dijalankan dalam Bahasa Melayu. | Sebarang pertanyaan, boleh hubungi talian 019-315 0011.
+
+---
+
+=================================================================
+END OF FILE
+Generated for entries 1-3 only
+For additional entries, please provide the entry numbers needed
+=================================================================
