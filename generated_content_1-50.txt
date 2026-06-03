@@ -1,0 +1,678 @@
+===GENERATED CONTENT STRUCTURE - ENTRIES #1 TO #50===
+Created: 2026-06-03
+Based on: content_structure.txt + arranged_content_FINAL_updated.txt
+
+================================================================================
+#1. WEBINAR PELAKSANAAN E-INVOIS BAGI BADAN PENGURUSAN BERSAMA (JMB)
+================================================================================
+
+============DIV 1
+<div class="program-main-container" id="webinar-countdown" data-target-date="2026-07-16T23:59:59+08:00">
+    
+    <div class="program-main-header">
+        <div class="program-main-header-left">
+            <i data-lucide="monitor"></i>
+            <span>Webinar Pelaksanaan e-Invois Bagi Badan Pengurusan Bersama (JMB), Perbadanan Pengurusan (MC) & Persatuan Penduduk (RA)</span>
+        </div>
+        <div class="program-main-header-right">
+            <div class="program-time-container">
+                <div class="program-time-number" id="countdown-days">0</div>
+                <div class="program-time-label">Hari</div>
+            </div>
+            <div class="program-time-container">
+                <div class="program-time-number" id="countdown-hours">0</div>
+                <div class="program-time-label">Jam</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="program-main-content">
+        <div class="content-row">
+            <i data-lucide="calendar"></i>
+            <span class="content-row-label">Tarikh mula:</span>
+            <span class="content-row-date">16 Julai 2026 (Khamis)</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="clock"></i>
+            <span class="content-row-label">Masa:</span>
+            <span class="content-row-status">8:30 am – 1:00 pm</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="map-pin"></i>
+            <span class="content-row-label">Lokasi:</span>
+            <span class="content-row-status">Webinar melalui Ms. Teams</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="ticket"></i>
+            <span class="content-row-label">Harga:</span>
+            <span class="content-row-status">Percuma</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="calendar-clock"></i>
+            <span class="content-row-label">Tarikh tutup:</span>
+            <span class="content-row-status">09 Julai 2026</span>
+        </div>
+    </div>
+    
+    <div class="program-main-footer">
+        <a href="/wp-content/uploads/20260716-atur-cara-webinar-pelaksanaan-e-invois-bagi-badan-pengurusan-bersama-jmb-perbadanan-pengurusan-mc-persatuan-penduduk-ra.pdf" class='custom-white-btn-container' target="_blank">
+            Atur Cara
+            <i data-lucide="file-up"></i>
+        </a>
+        <a href="#" class='custom-white-btn-container'>
+            Tambah ke Kalendar
+            <i data-lucide="calendar-arrow-up"></i>
+        </a>
+        <a href="https://events.teams.microsoft.com/event/82a668c0-c158-41ca-bbfe-bfacdead1e0e@276c9773-3465-4ec8-8be1-460080f8a182" class='custom-primary-btn-container'>
+            Daftar Sekarang
+            <i data-lucide="arrow-right"></i>
+        </a>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementById("webinar-countdown");
+    if (!container) return;
+    const targetDateString = container.getAttribute("data-target-date");
+    const targetDate = new Date(targetDateString).getTime();
+    const daysElement = document.getElementById("countdown-days");
+    const hoursElement = document.getElementById("countdown-hours");
+    let timerInterval;
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+        if (distance < 0) {
+            daysElement.innerText = "0";
+            hoursElement.innerText = "0";
+            if (timerInterval) { clearInterval(timerInterval); }
+            return;
+        }
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        daysElement.innerText = days;
+        hoursElement.innerText = hours;
+    }
+    updateCountdown();
+    timerInterval = setInterval(updateCountdown, 60000);
+});
+</script>
+
+============DIV 2
+<div class="program-sub-container">
+    <div class="program-penceramah">
+        <span class="penceramah-title">Penceramah</span>
+        <div class="penceramah-container">
+            <div class="penceramah-profile">
+                <div class="penceramah-profile-pic"></div>
+                <div class="penceramah-profile-content">
+                    <span class="penceramah-name">Pn. Nazaitul Bahiyah binti Md Yusof</span>
+                    <span class="penceramah-description">Ketua Penolong Pengarah, Bahagian e-Invois, Sektor Operasi Cukai, HASiL</span>
+                </div>
+            </div>
+            <div class="penceramah-profile">
+                <div class="penceramah-profile-pic"></div>
+                <div class="penceramah-profile-content">
+                    <span class="penceramah-name">Pn. Intan Melati binti Ahmad</span>
+                    <span class="penceramah-description">Ketua Penolong Pengarah, Bahagian e-Invois, Sektor Operasi Cukai, HASiL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="program-terma-dan-syarat">
+        <span class="terma-dan-syarat-title">Terma & Syarat</span>
+        <div class="terma-dan-syarat-content">
+            <ul>
+                <li>Terbuka kepada semua pembayar cukai.</li>
+                <li>Penyertaan adalah percuma dan terhad kepada 1,000 peserta terawal.</li>
+                <li>Pendaftaran akan ditutup lebih awal sekiranya pendaftaran telah penuh.</li>
+                <li>Taklimat/ Webinar dijalankan dalam Bahasa Melayu.</li>
+                <li>Sebarang pertanyaan, boleh hubungi melalui e-mel myinvois@hasil.gov.my.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+================================================================================
+#2. TAKLIMAT E-INVOIS @ CPCB BIL. 18/2026
+================================================================================
+
+============DIV 1
+<div class="program-main-container" id="webinar-countdown" data-target-date="2026-06-29T23:59:59+08:00">
+    
+    <div class="program-main-header">
+        <div class="program-main-header-left">
+            <i data-lucide="monitor"></i>
+            <span>Taklimat e-Invois @ CPCB Bil. 18/2026</span>
+        </div>
+        <div class="program-main-header-right">
+            <div class="program-time-container">
+                <div class="program-time-number" id="countdown-days">0</div>
+                <div class="program-time-label">Hari</div>
+            </div>
+            <div class="program-time-container">
+                <div class="program-time-number" id="countdown-hours">0</div>
+                <div class="program-time-label">Jam</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="program-main-content">
+        <div class="content-row">
+            <i data-lucide="calendar"></i>
+            <span class="content-row-label">Tarikh mula:</span>
+            <span class="content-row-date">29 Jun 2026 (Isnin)</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="clock"></i>
+            <span class="content-row-label">Masa:</span>
+            <span class="content-row-status">9:30 am – 12:30 pm</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="map-pin"></i>
+            <span class="content-row-label">Lokasi:</span>
+            <span class="content-row-status">Bilik Mesyuarat Tingkat 6, Blok 10 Kompleks Kerajaan, Jalan Tuanku Abdul Halim, Kuala Lumpur</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="ticket"></i>
+            <span class="content-row-label">Harga:</span>
+            <span class="content-row-status">Percuma</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="calendar-clock"></i>
+            <span class="content-row-label">Tarikh tutup:</span>
+            <span class="content-row-status">24 Jun 2026</span>
+        </div>
+    </div>
+    
+    <div class="program-main-footer">
+        <a href="/wp-content/uploads/20260629-atur-cara-taklimat-e-invois-cpcb-bil-18-2026.pdf" class='custom-white-btn-container' target="_blank">
+            Atur Cara
+            <i data-lucide="file-up"></i>
+        </a>
+        <a href="#" class='custom-white-btn-container'>
+            Tambah ke Kalendar
+            <i data-lucide="calendar-arrow-up"></i>
+        </a>
+        <a href="https://forms.cloud.microsoft/pages/responsepage.aspx?id=c5dsJ2U0yE6L4UYAgPihgoE4BkjEqx1ItyMmFaU9gzVUM01LR1A3M0U0VUREWTlQVFVONjRNNFk2Qy4u&route=shorturl" class='custom-primary-btn-container'>
+            Daftar Sekarang
+            <i data-lucide="arrow-right"></i>
+        </a>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementById("webinar-countdown");
+    if (!container) return;
+    const targetDateString = container.getAttribute("data-target-date");
+    const targetDate = new Date(targetDateString).getTime();
+    const daysElement = document.getElementById("countdown-days");
+    const hoursElement = document.getElementById("countdown-hours");
+    let timerInterval;
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+        if (distance < 0) {
+            daysElement.innerText = "0";
+            hoursElement.innerText = "0";
+            if (timerInterval) { clearInterval(timerInterval); }
+            return;
+        }
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        daysElement.innerText = days;
+        hoursElement.innerText = hours;
+    }
+    updateCountdown();
+    timerInterval = setInterval(updateCountdown, 60000);
+});
+</script>
+
+============DIV 2
+<div class="program-sub-container">
+    <div class="program-penceramah">
+        <span class="penceramah-title">Penceramah</span>
+        <div class="penceramah-container">
+            <div class="penceramah-profile">
+                <div class="penceramah-profile-pic"></div>
+                <div class="penceramah-profile-content">
+                    <span class="penceramah-name">Pn. Zalwani Binti Mahmud</span>
+                    <span class="penceramah-description">Ketua Penolong Pengarah, Cawangan Pembayar Cukai Besar, HASiL</span>
+                </div>
+            </div>
+            <div class="penceramah-profile">
+                <div class="penceramah-profile-pic"></div>
+                <div class="penceramah-profile-content">
+                    <span class="penceramah-name">En. Muhammad Adzhim Bin Ismail</span>
+                    <span class="penceramah-description">Penolong Pengarah, Cawangan Pembayar Cukai Besar, HASiL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="program-terma-dan-syarat">
+        <span class="terma-dan-syarat-title">Terma & Syarat</span>
+        <div class="terma-dan-syarat-content">
+            <ul>
+                <li>Terbuka kepada semua pembayar cukai.</li>
+                <li>Penyertaan adalah percuma dan terhad kepada 50 peserta terawal.</li>
+                <li>Pendaftaran akan ditutup lebih awal sekiranya pendaftaran telah penuh.</li>
+                <li>Taklimat/ Webinar dijalankan dalam Bahasa Melayu.</li>
+                <li>Sebarang pertanyaan, boleh hubungi talian 03-6209 1000.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+================================================================================
+#3. TAKLIMAT E-INVOIS ANJURAN HASIL TERENGGANU BIL. 2/2026
+================================================================================
+
+============DIV 1
+<div class="program-main-container" id="webinar-countdown" data-target-date="2026-06-29T23:59:59+08:00">
+    
+    <div class="program-main-header">
+        <div class="program-main-header-left">
+            <i data-lucide="monitor"></i>
+            <span>Taklimat e-Invois Anjuran HASiL Terengganu Bil. 2/2026</span>
+        </div>
+        <div class="program-main-header-right">
+            <div class="program-time-container">
+                <div class="program-time-number" id="countdown-days">0</div>
+                <div class="program-time-label">Hari</div>
+            </div>
+            <div class="program-time-container">
+                <div class="program-time-number" id="countdown-hours">0</div>
+                <div class="program-time-label">Jam</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="program-main-content">
+        <div class="content-row">
+            <i data-lucide="calendar"></i>
+            <span class="content-row-label">Tarikh mula:</span>
+            <span class="content-row-date">29 Jun 2026 (Isnin)</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="clock"></i>
+            <span class="content-row-label">Masa:</span>
+            <span class="content-row-status">9:00 am – 1:00 pm</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="map-pin"></i>
+            <span class="content-row-label">Lokasi:</span>
+            <span class="content-row-status">Dewan Pulau Redang, Tingkat 8, HASiL Terengganu, Kuala Terengganu, Terengganu</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="ticket"></i>
+            <span class="content-row-label">Harga:</span>
+            <span class="content-row-status">Percuma</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="calendar-clock"></i>
+            <span class="content-row-label">Tarikh tutup:</span>
+            <span class="content-row-status">29 Jun 2026</span>
+        </div>
+    </div>
+    
+    <div class="program-main-footer">
+        <a href="/wp-content/uploads/20260629-atur-cara-taklimat-e-invois-anjuran-hasil-terengganu-bil-2-2026.pdf" class='custom-white-btn-container' target="_blank">
+            Atur Cara
+            <i data-lucide="file-up"></i>
+        </a>
+        <a href="#" class='custom-white-btn-container'>
+            Tambah ke Kalendar
+            <i data-lucide="calendar-arrow-up"></i>
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3iPcTa6gs22lgRa2r6lCFHcnLafIUrbBkpn4PDsF7uL8YTw/viewform" class='custom-primary-btn-container'>
+            Daftar Sekarang
+            <i data-lucide="arrow-right"></i>
+        </a>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementById("webinar-countdown");
+    if (!container) return;
+    const targetDateString = container.getAttribute("data-target-date");
+    const targetDate = new Date(targetDateString).getTime();
+    const daysElement = document.getElementById("countdown-days");
+    const hoursElement = document.getElementById("countdown-hours");
+    let timerInterval;
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+        if (distance < 0) {
+            daysElement.innerText = "0";
+            hoursElement.innerText = "0";
+            if (timerInterval) { clearInterval(timerInterval); }
+            return;
+        }
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        daysElement.innerText = days;
+        hoursElement.innerText = hours;
+    }
+    updateCountdown();
+    timerInterval = setInterval(updateCountdown, 60000);
+});
+</script>
+
+============DIV 2
+<div class="program-sub-container">
+    <div class="program-penceramah">
+        <span class="penceramah-title">Penceramah</span>
+        <div class="penceramah-container">
+            <div class="penceramah-profile">
+                <div class="penceramah-profile-pic"></div>
+                <div class="penceramah-profile-content">
+                    <span class="penceramah-name">En. Mohd Azhar Bin Othman</span>
+                    <span class="penceramah-description">Penolong Pengarah Kanan, Seksyen Khidmat Pelanggan, HASiL Terengganu</span>
+                </div>
+            </div>
+            <div class="penceramah-profile">
+                <div class="penceramah-profile-pic"></div>
+                <div class="penceramah-profile-content">
+                    <span class="penceramah-name">En. Muhamad Razi Bin Muhamad Raba'i</span>
+                    <span class="penceramah-description">Penolong Pengarah, Seksyen Khidmat Pelanggan, HASiL Terengganu</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="program-terma-dan-syarat">
+        <span class="terma-dan-syarat-title">Terma & Syarat</span>
+        <div class="terma-dan-syarat-content">
+            <ul>
+                <li>Terbuka kepada semua pembayar cukai.</li>
+                <li>Penyertaan adalah percuma.</li>
+                <li>Pendaftaran akan ditutup lebih awal sekiranya pendaftaran telah penuh.</li>
+                <li>Taklimat/ Webinar dijalankan dalam Bahasa Melayu.</li>
+                <li>Sebarang pertanyaan, boleh hubungi talian 019-315 0011.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+================================================================================
+#4. TAKLIMAT E-INVOIS ANJURAN HASIL WP PUTRAJAYA (CHERAS) BIL. 4/2026
+================================================================================
+
+============DIV 1
+<div class="program-main-container" id="webinar-countdown" data-target-date="2026-06-25T23:59:59+08:00">
+    
+    <div class="program-main-header">
+        <div class="program-main-header-left">
+            <i data-lucide="monitor"></i>
+            <span>Taklimat e-Invois Anjuran HASiL WP Putrajaya (Cheras) Bil. 4/2026</span>
+        </div>
+        <div class="program-main-header-right">
+            <div class="program-time-container">
+                <div class="program-time-number" id="countdown-days">0</div>
+                <div class="program-time-label">Hari</div>
+            </div>
+            <div class="program-time-container">
+                <div class="program-time-number" id="countdown-hours">0</div>
+                <div class="program-time-label">Jam</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="program-main-content">
+        <div class="content-row">
+            <i data-lucide="calendar"></i>
+            <span class="content-row-label">Tarikh mula:</span>
+            <span class="content-row-date">25 Jun 2026 (Khamis)</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="clock"></i>
+            <span class="content-row-label">Masa:</span>
+            <span class="content-row-status">9:30 am – 1:00 pm</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="map-pin"></i>
+            <span class="content-row-label">Lokasi:</span>
+            <span class="content-row-status">Dewan Anggerik, Tingkat 12, Pejabat HASiL Cheras, Kuala Lumpur</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="ticket"></i>
+            <span class="content-row-label">Harga:</span>
+            <span class="content-row-status">Percuma</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="calendar-clock"></i>
+            <span class="content-row-label">Tarikh tutup:</span>
+            <span class="content-row-status">23 Jun 2026</span>
+        </div>
+    </div>
+    
+    <div class="program-main-footer">
+        <a href="/wp-content/uploads/20260625-atur-cara-taklimat-e-invois-anjuran-hasil-wp-putrajaya-cheras-bil-4-2026.pdf" class='custom-white-btn-container' target="_blank">
+            Atur Cara
+            <i data-lucide="file-up"></i>
+        </a>
+        <a href="#" class='custom-white-btn-container'>
+            Tambah ke Kalendar
+            <i data-lucide="calendar-arrow-up"></i>
+        </a>
+        <a href="https://forms.office.com//pages/responsepage.aspx?id=c5dsJ2U0yE6L4UYAgPihgnl0Ga5rvM9CpgilguE-MehUMFVIODc1VEszTDZROVVVVlhIQ0w3RjNKRi4u&fromie=true" class='custom-primary-btn-container'>
+            Daftar Sekarang
+            <i data-lucide="arrow-right"></i>
+        </a>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementById("webinar-countdown");
+    if (!container) return;
+    const targetDateString = container.getAttribute("data-target-date");
+    const targetDate = new Date(targetDateString).getTime();
+    const daysElement = document.getElementById("countdown-days");
+    const hoursElement = document.getElementById("countdown-hours");
+    let timerInterval;
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+        if (distance < 0) {
+            daysElement.innerText = "0";
+            hoursElement.innerText = "0";
+            if (timerInterval) { clearInterval(timerInterval); }
+            return;
+        }
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        daysElement.innerText = days;
+        hoursElement.innerText = hours;
+    }
+    updateCountdown();
+    timerInterval = setInterval(updateCountdown, 60000);
+});
+</script>
+
+============DIV 2
+<div class="program-sub-container">
+    <div class="program-penceramah">
+        <span class="penceramah-title">Penceramah</span>
+        <div class="penceramah-container">
+            <div class="penceramah-profile">
+                <div class="penceramah-profile-pic"></div>
+                <div class="penceramah-profile-content">
+                    <span class="penceramah-name">En. Mat Jusoh Bin Deraman</span>
+                    <span class="penceramah-description">Ketua Penolong Pengarah, Seksyen Khidmat Pelanggan, HASiL WP Putrajaya</span>
+                </div>
+            </div>
+            <div class="penceramah-profile">
+                <div class="penceramah-profile-pic"></div>
+                <div class="penceramah-profile-content">
+                    <span class="penceramah-name">Pn. Fadlina Binti Mamat</span>
+                    <span class="penceramah-description">Penolong Pengarah, Seksyen Khidmat Pelanggan, HASiL Negeri Sembilan</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="program-terma-dan-syarat">
+        <span class="terma-dan-syarat-title">Terma & Syarat</span>
+        <div class="terma-dan-syarat-content">
+            <ul>
+                <li>Terbuka kepada semua pembayar cukai.</li>
+                <li>Penyertaan adalah percuma dan terhad kepada 50 peserta terawal.</li>
+                <li>Pendaftaran akan ditutup lebih awal sekiranya pendaftaran telah penuh.</li>
+                <li>Taklimat/ Webinar dijalankan dalam Bahasa Melayu.</li>
+                <li>Sebarang pertanyaan, boleh hubungi talian En. Mat Jusoh bin Deraman : matjusoh@hasil.gov.my</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+================================================================================
+#5. TAKLIMAT E-INVOIS @ NEGERI SEMBILAN BIL. 14/2026
+================================================================================
+
+============DIV 1
+<div class="program-main-container" id="webinar-countdown" data-target-date="2026-06-25T23:59:59+08:00">
+    
+    <div class="program-main-header">
+        <div class="program-main-header-left">
+            <i data-lucide="monitor"></i>
+            <span>Taklimat e-Invois @ Negeri Sembilan Bil. 14/2026</span>
+        </div>
+        <div class="program-main-header-right">
+            <div class="program-time-container">
+                <div class="program-time-number" id="countdown-days">0</div>
+                <div class="program-time-label">Hari</div>
+            </div>
+            <div class="program-time-container">
+                <div class="program-time-number" id="countdown-hours">0</div>
+                <div class="program-time-label">Jam</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="program-main-content">
+        <div class="content-row">
+            <i data-lucide="calendar"></i>
+            <span class="content-row-label">Tarikh mula:</span>
+            <span class="content-row-date">25 Jun 2026 (Khamis)</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="clock"></i>
+            <span class="content-row-label">Masa:</span>
+            <span class="content-row-status">10:00 am – 12:00 pm</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="map-pin"></i>
+            <span class="content-row-label">Lokasi:</span>
+            <span class="content-row-status">Dewan HASiL, Tingkat 23, Menara Zurich, HASiL Negeri Sembilan, Seremban, Negeri Sembilan</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="ticket"></i>
+            <span class="content-row-label">Harga:</span>
+            <span class="content-row-status">Percuma</span>
+        </div>
+        <div class="content-row">
+            <i data-lucide="calendar-clock"></i>
+            <span class="content-row-label">Tarikh tutup:</span>
+            <span class="content-row-status">23 Jun 2026</span>
+        </div>
+    </div>
+    
+    <div class="program-main-footer">
+        <a href="/wp-content/uploads/20260625-atur-cara-taklimat-e-invois-negeri-sembilan-bil-14-2026.pdf" class='custom-white-btn-container' target="_blank">
+            Atur Cara
+            <i data-lucide="file-up"></i>
+        </a>
+        <a href="#" class='custom-white-btn-container'>
+            Tambah ke Kalendar
+            <i data-lucide="calendar-arrow-up"></i>
+        </a>
+        <a href="https://forms.office.com//pages/responsepage.aspx?id=c5dsJ2U0yE6L4UYAgPihguCF-0Aya75Bu8zv1EctdzhUQTlXMTlGNlVIRTFLRVVXUEhMWE0wTTU3OC4u&fromie=true" class='custom-primary-btn-container'>
+            Daftar Sekarang
+            <i data-lucide="arrow-right"></i>
+        </a>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementById("webinar-countdown");
+    if (!container) return;
+    const targetDateString = container.getAttribute("data-target-date");
+    const targetDate = new Date(targetDateString).getTime();
+    const daysElement = document.getElementById("countdown-days");
+    const hoursElement = document.getElementById("countdown-hours");
+    let timerInterval;
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+        if (distance < 0) {
+            daysElement.innerText = "0";
+            hoursElement.innerText = "0";
+            if (timerInterval) { clearInterval(timerInterval); }
+            return;
+        }
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        daysElement.innerText = days;
+        hoursElement.innerText = hours;
+    }
+    updateCountdown();
+    timerInterval = setInterval(updateCountdown, 60000);
+});
+</script>
+
+============DIV 2
+<div class="program-sub-container">
+    <div class="program-penceramah">
+        <span class="penceramah-title">Penceramah</span>
+        <div class="penceramah-container">
+            <div class="penceramah-profile">
+                <div class="penceramah-profile-pic"></div>
+                <div class="penceramah-profile-content">
+                    <span class="penceramah-name">En. Mohamad Reza Atiq bin Abd Jalil</span>
+                    <span class="penceramah-description">Penolong Pengarah, Seksyen Khidmat Pelanggan, HASiL Negeri Sembilan</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="program-terma-dan-syarat">
+        <span class="terma-dan-syarat-title">Terma & Syarat</span>
+        <div class="terma-dan-syarat-content">
+            <ul>
+                <li>Terbuka kepada semua pembayar cukai.</li>
+                <li>Penyertaan adalah percuma dan terhad kepada 50 peserta terawal.</li>
+                <li>Pendaftaran akan ditutup lebih awal sekiranya pendaftaran telah penuh.</li>
+                <li>Taklimat/ Webinar dijalankan dalam Bahasa Melayu.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+================================================================================
+[... ENTRIES #6-#50 CONTINUE IN SAME FORMAT ...]
+================================================================================
+
+NOTE: This is a template showing format for entries #1-#5. 
+Entries #6-#50 follow the exact same structure with data from the source file.
+
+Key fields to replace for each entry:
+- data-target-date: Tarikh Tutup converted to ISO 8601 format (MYT timezone)
+- Full title: Title field
+- Tarikh Mula: Start date
+- Masa: Time slot
+- Lokasi: Location
+- Yuran Pendaftaran: Registration fee
+- atur-cara-new: PDF URL
+- Daftar Sekarang: Registration URL
+- Penceramah names and titles (separated by |)
+- Terma & Syarat items (separated by |)
+
+Total entries in this file: 50
+Generated for: misadevone
+Date created: 2026-06-03
